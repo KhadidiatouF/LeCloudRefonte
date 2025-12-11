@@ -814,6 +814,11 @@ body {
         width: 100%;
         text-align: center;
         color: var(--primary-color);
+        transition: var(--transition);
+    }
+
+    .nav-menu a:hover {
+        color: var(--gray-800);
     }
 
     body.menu-open {
